@@ -59,8 +59,12 @@ function getTime(){
 
   const dateDisplay = document.getElementById('date');
   dateDisplay.textContent = `${dateToday} ${thisMonth}, ${thisYear}`;
+
   let hours = currentTime.getHours();
   let meridium;
+
+  let minutes = currentTime.getMinutes().toString().padStart(2, 0);
+
   if(hours == 0 && minutes == 0){
     meridium = "Midnight";
   }
@@ -75,7 +79,7 @@ function getTime(){
   }
   hours = hours % 12 || 12;
   hours = hours.toString().padStart(2, 0);
-  let minutes = currentTime.getMinutes().toString().padStart(2, 0);
+  
   let seconds = currentTime.getSeconds().toString().padStart(2, 0);
   let timeDisplay = document.getElementById('time');
 
