@@ -12,47 +12,36 @@ function getTime(){
     case 1:
       thisMonth = "February";
       break;
-
     case 2:
       thisMonth = "March";
       break;
-
     case 3:
       thisMonth = "April";
       break;
-
     case 4:
       thisMonth = "May";
       break;
-    
     case 5:
       thisMonth = "June";
       break;
-
     case 6:
       thisMonth = "July";
       break;
-
     case 7:
       thisMonth = "August";
       break;
-
     case 8:
       thisMonth = "September";
       break;
-
     case 9:
       thisMonth = "October";
       break;
-
     case 10:
       thisMonth = "November";
       break;
-
     case 11:
       thisMonth = "December";
       break;
-
     default: "Not a month";
   }
   let thisYear = currentTime.getFullYear();
