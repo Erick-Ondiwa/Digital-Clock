@@ -1,13 +1,14 @@
 body{
+  font-family: Roboto;
   display: flex;
   margin: 0;
-  background-color:hsl(0, 0%, 94%);
+  background-color:hsl(0, 0%, 96%);
   justify-content: center;
   align-items: center;
 }
 h1{
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 4em;
 }
 .clockContainer{
